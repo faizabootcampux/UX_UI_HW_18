@@ -1,0 +1,40 @@
+nav {
+    padding: 10px;
+  }
+ul {
+    margin-left: auto;   
+}
+
+header img {
+  width: 60px;
+  }
+nav,
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul,
+footer ul{
+  display: flex;
+  gap: 10px;
+}
+
+nav li,
+footer li{
+  list-style: none;
+}
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.project img {
+    display: flex;
+	width: 600px;
+	object-fit: cover;
+	margin-bottom: 1em;
+}
