@@ -8,7 +8,11 @@ ul {
 header img {
   width: 60px;
   }
-nav,
+body {
+  background-image: url(backgroundgradient.jpg);
+  background-size: cover;
+}
+  nav,
 footer{
   display: flex;
   justify-content: space-between;
