@@ -1,8 +1,10 @@
 h1 {
-  font-family: italiana, serif;
+  font-family: "italiana", serif; 
+  src: url("Italiana/Italiana-Regular.ttf") format("truetype");
 }
-p {
-  font-family: Montserrat, sans-serif;
+p, li {
+  font-family: "Montserrat", sans-serif; 
+  src: url("Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
 }
 nav {
     padding: 10px;
